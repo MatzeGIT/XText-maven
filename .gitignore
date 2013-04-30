@@ -1,0 +1,47 @@
+*.class
+
+# Generate
+*.src-gen
+src-gen/
+xtend-gen/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Repositories
+bin/
+target/
+auto/
+output/
+tmp/
+.metadata/
+
+# Include Libary
+!*/lib/
+!*/lib/*.jar
+
+# Linux
+.goutputstream*
+
+# Old HG
+.hg/
+.hgignore
+*.orig
+*._trace
+
+# Additional Files
+*.aux
+*.dvi
+*.ps
+*.pdf
+*.log
+*.blg
+*.rel
+*.nav
+*.bbl
+*.out
+*.snm
+*.toc
+*.bak
