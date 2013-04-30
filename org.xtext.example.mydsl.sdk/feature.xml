@@ -6,12 +6,12 @@
 			id="org.xtext.example.mydsl"
 			download-size="0"
 			install-size="0"
-			version="0.0.0"
+			version="1.0.0"
 			unpack="false"/>
 	<plugin
 			id="org.xtext.example.mydsl.ui"
 			download-size="0"
 			install-size="0"
-			version="0.0.0"
+			version="1.0.0"
 			unpack="false"/>
 </feature>
