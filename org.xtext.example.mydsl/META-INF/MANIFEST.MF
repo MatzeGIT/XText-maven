@@ -17,9 +17,10 @@ Require-Bundle: org.eclipse.xtext;visibility:=reexport,
  org.eclipse.emf.common,
  org.antlr.runtime,
  org.eclipse.xtext.common.types
-Import-Package: org.apache.log4j;resolution:=optional,
- org.slf4j;version="1.6.4";resolution:=optional,
- org.eclipse.xtext.xbase.lib
+Import-Package: ch.qos.logback.classic;version="1.0.7";resolution:=optional,
+ org.apache.log4j;resolution:=optional,
+ org.eclipse.xtext.xbase.lib,
+ org.slf4j;version="1.6.4";resolution:=optional
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: org.xtext.example.mydsl,
  org.xtext.example.mydsl.services,
